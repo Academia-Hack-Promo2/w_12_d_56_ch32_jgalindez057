@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ajax 2</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/ajax2.css">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+	</head>
+	<body>
+		
+		<section class="container text-center"><br><br>
+		<h2>Registro</h2><br>
+			<form action="#" id="forms">
+				<div>
+					<label for="nombre"><h3>Nombre : </h3></label>
+					<input type="text" id="nombre" placeholder="Coloque su nombre" required >
+				</div>
+				<div>
+					<label for="apellido"><h3>Apellido : </h3></label>
+					<input type="text" id="apellido" placeholder="Coloque su apellido" required>
+				</div>
+				<div>
+					<label for="cedula"><h3>Cedula : </h3></label>
+					<input type="number" id="cedula" placeholder="Coloque su cedula" required>
+				</div>
+				<div>
+					<label for="correo"><h3>Correo : </h3></label>
+					<input type="email" id="correo" placeholder="john@correo.com" required>
+				</div>
+				<div>
+					<label for="telefono"><h3>Telefono : </h3></label>
+					<input type="text" id="telefeno" placeholder="0233-455-22" required>
+				</div>
+				<div>
+					<label for="direccion"><h3>Direccion : </h3></label>
+					<input type="text" id="direccion" placeholder="Los dos caminos" required>
+				</div><br>
+				<div>
+					<label for="enviar"></label>
+					<input type="submit" id="enviar" value="Enviar" onclick="new_user()">
+				</div>
+			</form>
+		</section>
+
+		<div id="test"></div>
+		
+		<script src="js/jquery-2.1.1.min.js"></script>
+				<script src="js/ajax2.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+	</body>
+</html>
